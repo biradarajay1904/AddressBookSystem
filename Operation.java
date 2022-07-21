@@ -91,6 +91,16 @@ public class Operation {
 		    	System.out.println("Edit Phone :");
 		    	String phoneno = scanner.next();
 		    	con.setPhoneNumber(phoneno);
-		    	
+		 }		    	
 		 }
+		//Delete the person Contact
+			public void delete() {
+				System.out.println("Delete the Person");
+				String fname = scanner.next();
+				System.out.println(fname+"");
+				if (fname.equals(con.getFirstName())) {
+						contactDetails.remove(con);
+						System.out.println("contact is Deleted from the Address Book");
+					}
 }
+    }
