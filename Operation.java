@@ -33,31 +33,7 @@ public class Operation {
         System.out.println(contactDetails);
     }
 
-   /* public static void main(String[] args) {
-
-        boolean check = false;
-        System.out.println("Welcome to Address Book Management System");
-        Operation details = new Operation();
-
-      /*  do {
-            System.out.println("1.Add details.\n2.Display Contacts.");
-            int choose = scanner.nextInt();
-            switch (choose) {
-                case 1:
-                    details.addDetails();
-                    break;
-                case 2:
-                    details.display();
-                    break;
-                default:
-                    System.out.println("Wrong option");
-                    details.display();
-                    break;
-            }
-        }
-        while (!check);
-    }
-    */
+  
     
    
 }
